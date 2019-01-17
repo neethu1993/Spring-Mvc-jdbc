@@ -18,8 +18,6 @@ public class UserController {
     @RequestMapping("populate")
     public ModelAndView populate(@RequestParam("userName") String userName, @RequestParam("password") String password){
         User user1 = new User(userName,password);
-
-        //map.addAttribute("greeting1",user1.getUserName());
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("result");
         modelAndView.addObject("greeting1",user1.getUserName());
