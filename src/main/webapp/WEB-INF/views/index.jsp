@@ -4,11 +4,11 @@
 <html>
 <body>
 <h2>Login Form</h2>
-<form action="populate">
+<form action="populate" >
 <label>User name</label>
-<input type= "text" name="userName"><br>
+<input type= "text" name="userName"><br><br>
 <label>Password</label>
-<input type= "password" name="password"><br>
+<input type= "password" name="password"><br><br>
 <input type="Submit">
 </form>
 </body>
