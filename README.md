@@ -9,3 +9,5 @@ Create annotation based Spring MVC application which has following feature:
         UserController will pass user object to view (index.jsp).
 
         View will display “Welcome <user> to stackroute”.
+        
+        With JDBC Connection.
